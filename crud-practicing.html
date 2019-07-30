@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+    .input {
+        width: 685px;
+    }
+    .margim {
+        margin-top: 8px;
+    }
+    .button{
+        width: 150px;
+    }
+    .margimbutton{
+        margin-top: 45px;
+    }
+    .divProd {
+        margin-top: 35px;
+        text-align: center;
+    }
+
+    
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+               
+    </nav>
+    <form action="">
+        <div class="col-md-12">
+            <div class="container">
+                <div class="col-md-12 divProd">
+                    <h4>CADASTRO DE PRODUTOS</h4>
+                </div>
+                <div class="col-md-12">
+                    <hr>
+                </div>
+                <div class="jumbotron shadow p-3 mb-5 bg-white rounded">
+                    <div class="row form-group">
+                        <div class="col-md">
+                            <b><label for="" class="margim">Nome do Produto</label></b>
+                            <input type="text" class="form-control input">
+                        </div>
+                        <div class="col-md-4">
+                            <b><label for="" class="margim">Código</label></b>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row form-gruop">
+                        <div class="col-md">
+                            <b><label for="exampleFormControlSelect1" class="margim">Categoria do Produto</label></b>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>1 - Mercadoria para Revenda</option>
+                                <option>2 - Embalagem</option>
+                                <option>3 - Matéria-Prima</option>
+                                <option>4 - Produto em Processo</option>
+                                <option>5 - Produção Interna</option>
+                                <option>6 - Outras</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-6">
+                            <b><label for="" class="margim">Valor de Venda</label></b>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <b><label for="" class="margim">Código de Barras</label></b>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <h4 style="margin-top: 25px;">INFORMAÇÕES ADICIONAIS</h4>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-4">
+                            <b><label for="undMed" class="margim">Unidade de Medida</label></b>
+                            <select class="form-control" id="undMed">
+                                <option>Unidade(Un)</option>
+                                <option>Metros(M)</option>
+                                <option>Centimetros(Cm)</option>
+                                <option>Gramas(g)</option>
+                                <option>Litros(L)</option>
+                                <option>Kilograma(Kg)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <b><label for="typeIns" class="margim">Tipo Insumo</label></b>
+                            <select  class="form-control" id="typeIns">
+                                <option value="0">Não</option>
+                                <option value="1">Sim</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <b><label for="typePere" class="margim">Perecível</label></b>
+                            <select  class="form-control" id="typePere">
+                                <option value="0">Não</option>
+                                <option value="1">Sim</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-3">
+                            <button type="button" class="btn btn-success button margimbutton">Salvar</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button type="button" class="btn btn-secondary margimbutton" style="width: 200px;">Salvar e Adicionar outro</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </form>
+</body>
+</html>
